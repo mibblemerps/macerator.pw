@@ -21,5 +21,6 @@ THE SOFTWARE.
 */
 
 body {
-
+    background: url("background.jpg");
+    background-size: cover;
 }
