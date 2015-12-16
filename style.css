@@ -40,6 +40,35 @@ footer {
 
 }
 
+.button {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 8px 28px;
+
+    font-weight: 500;
+    font-family: "open sans", "arial", sans-serif;
+
+    border: none;
+    border-radius: 4px;
+    background-color: #55acee;
+    box-shadow: 0 4px 0 0 #3C93D5;
+
+    color: white;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+
+    transition: background-color 0.2s;
+
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #6FC6FF;
+}
+.button:active {
+    box-shadow: none;
+    transform: translate(0px, 4px);
+    -webkit-transform: translate(0px, 4px);
+}
+
 #content {
     width: 75%;
     min-height: calc(100vh - 130px);
@@ -80,3 +109,10 @@ footer {
     color: #f0f0f0;
     text-shadow: 0 0 4px rgba(0, 0, 0, 0.85);
 }
+
+
+.the-staff { text-align: center; }
+.the-staff .staff-member { display: inline-block; margin-right: 10px }
+.the-staff .staff-member img { height: 80px; }
+.the-staff .staff-member .staff-member-username { font-weight: bold; font-size: 20px; color: rgb(186, 145, 240); }
+.the-staff .staff-member .staff-member-title { font-size: 17px; }
