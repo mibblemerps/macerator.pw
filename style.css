@@ -37,8 +37,15 @@ body {
 }
 
 footer {
+    text-align: center;
+    margin-top: 15px;
 
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
 }
+footer a { color: white; }
+footer a:hover { color: #4984F0; }
 
 .button {
     display: inline-block;
