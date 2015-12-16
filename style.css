@@ -38,7 +38,7 @@ body {
 }
 
 footer {
-    
+
 }
 
 #content {
@@ -59,4 +59,14 @@ footer {
 
     vertical-align: bottom;
     margin-left: 5px;
+}
+
+#body {
+    padding-left: 10px;
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+
+    color: #f0f0f0;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.85);
 }
